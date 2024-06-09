@@ -117,7 +117,11 @@ button:focus {
   margin-right: 12px;
 }
 
+/* Scaling Wrapper */
 .scaling-wrapper {
   transform: scale(0.5); /* Scale to 50% */
-  transform-origin: top left; /* Adjust as needed */
+  transform-origin: top left; /* Ensure scaling starts from top left */
+  position: absolute; /* Position absolutely */
+  top: 10px; /* Adjust top padding as needed */
+  left: 10px; /* Adjust left padding as needed */
 }
