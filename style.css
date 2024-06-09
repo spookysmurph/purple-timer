@@ -116,3 +116,8 @@ button:focus {
 .inc-arrow {
   margin-right: 12px;
 }
+
+.scaling-wrapper {
+  transform: scale(0.5); /* Scale to 50% */
+  transform-origin: top left; /* Adjust as needed */
+}
